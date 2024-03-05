@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50C6EAE62B97DD2700B7F1C9 /* PentresiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6EAE52B97DD2700B7F1C9 /* PentresiApp.swift */; };
+		50C6EAE82B97DD2700B7F1C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6EAE72B97DD2700B7F1C9 /* ContentView.swift */; };
+		50C6EAEA2B97DD2900B7F1C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C6EAE92B97DD2900B7F1C9 /* Assets.xcassets */; };
+		50C6EAED2B97DD2900B7F1C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C6EAEC2B97DD2900B7F1C9 /* Preview Assets.xcassets */; };
+		50C6EAF72B97DD2900B7F1C9 /* PentresiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6EAF62B97DD2900B7F1C9 /* PentresiTests.swift */; };
+		50C6EB012B97DD2900B7F1C9 /* PentresiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6EB002B97DD2900B7F1C9 /* PentresiUITests.swift */; };
+		50C6EB032B97DD2900B7F1C9 /* PentresiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6EB022B97DD2900B7F1C9 /* PentresiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50C6EAF32B97DD2900B7F1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C6EADA2B97DD2700B7F1C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C6EAE12B97DD2700B7F1C9;
+			remoteInfo = Pentresi;
+		};
+		50C6EAFD2B97DD2900B7F1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C6EADA2B97DD2700B7F1C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C6EAE12B97DD2700B7F1C9;
+			remoteInfo = Pentresi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50C6EAE22B97DD2700B7F1C9 /* Pentresi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pentresi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C6EAE52B97DD2700B7F1C9 /* PentresiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentresiApp.swift; sourceTree = "<group>"; };
+		50C6EAE72B97DD2700B7F1C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50C6EAE92B97DD2900B7F1C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50C6EAEC2B97DD2900B7F1C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50C6EAF22B97DD2900B7F1C9 /* PentresiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PentresiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C6EAF62B97DD2900B7F1C9 /* PentresiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentresiTests.swift; sourceTree = "<group>"; };
+		50C6EAFC2B97DD2900B7F1C9 /* PentresiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PentresiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C6EB002B97DD2900B7F1C9 /* PentresiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentresiUITests.swift; sourceTree = "<group>"; };
+		50C6EB022B97DD2900B7F1C9 /* PentresiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentresiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50C6EADF2B97DD2700B7F1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C6EAEF2B97DD2900B7F1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C6EAF92B97DD2900B7F1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50C6EAD92B97DD2700B7F1C9 = {
+			isa = PBXGroup;
+			children = (
+				50C6EAE42B97DD2700B7F1C9 /* Pentresi */,
+				50C6EAF52B97DD2900B7F1C9 /* PentresiTests */,
+				50C6EAFF2B97DD2900B7F1C9 /* PentresiUITests */,
+				50C6EAE32B97DD2700B7F1C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50C6EAE32B97DD2700B7F1C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C6EAE22B97DD2700B7F1C9 /* Pentresi.app */,
+				50C6EAF22B97DD2900B7F1C9 /* PentresiTests.xctest */,
+				50C6EAFC2B97DD2900B7F1C9 /* PentresiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50C6EAE42B97DD2700B7F1C9 /* Pentresi */ = {
+			isa = PBXGroup;
+			children = (
+				50C6EAE52B97DD2700B7F1C9 /* PentresiApp.swift */,
+				50C6EAE72B97DD2700B7F1C9 /* ContentView.swift */,
+				50C6EAE92B97DD2900B7F1C9 /* Assets.xcassets */,
+				50C6EAEB2B97DD2900B7F1C9 /* Preview Content */,
+			);
+			path = Pentresi;
+			sourceTree = "<group>";
+		};
+		50C6EAEB2B97DD2900B7F1C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50C6EAEC2B97DD2900B7F1C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50C6EAF52B97DD2900B7F1C9 /* PentresiTests */ = {
+			isa = PBXGroup;
+			children = (
+				50C6EAF62B97DD2900B7F1C9 /* PentresiTests.swift */,
+			);
+			path = PentresiTests;
+			sourceTree = "<group>";
+		};
+		50C6EAFF2B97DD2900B7F1C9 /* PentresiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50C6EB002B97DD2900B7F1C9 /* PentresiUITests.swift */,
+				50C6EB022B97DD2900B7F1C9 /* PentresiUITestsLaunchTests.swift */,
+			);
+			path = PentresiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50C6EAE12B97DD2700B7F1C9 /* Pentresi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C6EB062B97DD2900B7F1C9 /* Build configuration list for PBXNativeTarget "Pentresi" */;
+			buildPhases = (
+				50C6EADE2B97DD2700B7F1C9 /* Sources */,
+				50C6EADF2B97DD2700B7F1C9 /* Frameworks */,
+				50C6EAE02B97DD2700B7F1C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pentresi;
+			productName = Pentresi;
+			productReference = 50C6EAE22B97DD2700B7F1C9 /* Pentresi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50C6EAF12B97DD2900B7F1C9 /* PentresiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C6EB092B97DD2900B7F1C9 /* Build configuration list for PBXNativeTarget "PentresiTests" */;
+			buildPhases = (
+				50C6EAEE2B97DD2900B7F1C9 /* Sources */,
+				50C6EAEF2B97DD2900B7F1C9 /* Frameworks */,
+				50C6EAF02B97DD2900B7F1C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50C6EAF42B97DD2900B7F1C9 /* PBXTargetDependency */,
+			);
+			name = PentresiTests;
+			productName = PentresiTests;
+			productReference = 50C6EAF22B97DD2900B7F1C9 /* PentresiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50C6EAFB2B97DD2900B7F1C9 /* PentresiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C6EB0C2B97DD2900B7F1C9 /* Build configuration list for PBXNativeTarget "PentresiUITests" */;
+			buildPhases = (
+				50C6EAF82B97DD2900B7F1C9 /* Sources */,
+				50C6EAF92B97DD2900B7F1C9 /* Frameworks */,
+				50C6EAFA2B97DD2900B7F1C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50C6EAFE2B97DD2900B7F1C9 /* PBXTargetDependency */,
+			);
+			name = PentresiUITests;
+			productName = PentresiUITests;
+			productReference = 50C6EAFC2B97DD2900B7F1C9 /* PentresiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50C6EADA2B97DD2700B7F1C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					50C6EAE12B97DD2700B7F1C9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					50C6EAF12B97DD2900B7F1C9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 50C6EAE12B97DD2700B7F1C9;
+					};
+					50C6EAFB2B97DD2900B7F1C9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 50C6EAE12B97DD2700B7F1C9;
+					};
+				};
+			};
+			buildConfigurationList = 50C6EADD2B97DD2700B7F1C9 /* Build configuration list for PBXProject "Pentresi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50C6EAD92B97DD2700B7F1C9;
+			productRefGroup = 50C6EAE32B97DD2700B7F1C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50C6EAE12B97DD2700B7F1C9 /* Pentresi */,
+				50C6EAF12B97DD2900B7F1C9 /* PentresiTests */,
+				50C6EAFB2B97DD2900B7F1C9 /* PentresiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50C6EAE02B97DD2700B7F1C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C6EAED2B97DD2900B7F1C9 /* Preview Assets.xcassets in Resources */,
+				50C6EAEA2B97DD2900B7F1C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C6EAF02B97DD2900B7F1C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C6EAFA2B97DD2900B7F1C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50C6EADE2B97DD2700B7F1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C6EAE82B97DD2700B7F1C9 /* ContentView.swift in Sources */,
+				50C6EAE62B97DD2700B7F1C9 /* PentresiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C6EAEE2B97DD2900B7F1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C6EAF72B97DD2900B7F1C9 /* PentresiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C6EAF82B97DD2900B7F1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C6EB032B97DD2900B7F1C9 /* PentresiUITestsLaunchTests.swift in Sources */,
+				50C6EB012B97DD2900B7F1C9 /* PentresiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50C6EAF42B97DD2900B7F1C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50C6EAE12B97DD2700B7F1C9 /* Pentresi */;
+			targetProxy = 50C6EAF32B97DD2900B7F1C9 /* PBXContainerItemProxy */;
+		};
+		50C6EAFE2B97DD2900B7F1C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50C6EAE12B97DD2700B7F1C9 /* Pentresi */;
+			targetProxy = 50C6EAFD2B97DD2900B7F1C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50C6EB042B97DD2900B7F1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50C6EB052B97DD2900B7F1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50C6EB072B97DD2900B7F1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pentresi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Illusion-Team.Pentresi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50C6EB082B97DD2900B7F1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pentresi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Illusion-Team.Pentresi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50C6EB0A2B97DD2900B7F1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Illusion-Team.PentresiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pentresi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pentresi";
+			};
+			name = Debug;
+		};
+		50C6EB0B2B97DD2900B7F1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Illusion-Team.PentresiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pentresi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pentresi";
+			};
+			name = Release;
+		};
+		50C6EB0D2B97DD2900B7F1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Illusion-Team.PentresiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pentresi;
+			};
+			name = Debug;
+		};
+		50C6EB0E2B97DD2900B7F1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Illusion-Team.PentresiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pentresi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50C6EADD2B97DD2700B7F1C9 /* Build configuration list for PBXProject "Pentresi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C6EB042B97DD2900B7F1C9 /* Debug */,
+				50C6EB052B97DD2900B7F1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C6EB062B97DD2900B7F1C9 /* Build configuration list for PBXNativeTarget "Pentresi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C6EB072B97DD2900B7F1C9 /* Debug */,
+				50C6EB082B97DD2900B7F1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C6EB092B97DD2900B7F1C9 /* Build configuration list for PBXNativeTarget "PentresiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C6EB0A2B97DD2900B7F1C9 /* Debug */,
+				50C6EB0B2B97DD2900B7F1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C6EB0C2B97DD2900B7F1C9 /* Build configuration list for PBXNativeTarget "PentresiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C6EB0D2B97DD2900B7F1C9 /* Debug */,
+				50C6EB0E2B97DD2900B7F1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50C6EADA2B97DD2700B7F1C9 /* Project object */;
+}
