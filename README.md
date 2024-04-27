@@ -9,11 +9,11 @@ This app was developed for academic purposes by Tecmilenio for a class where we 
 
 <div align="center">
 
-![photo 1](/ReadmeReasures/image-1.PNG)
-![photo 1](/ReadmeReasures/image-2.PNG)
-![photo 1](/ReadmeReasures/image-3.PNG)
-![photo 1](/ReadmeReasures/image-4.PNG)
-![photo 1](/ReadmeReasures/image-5.PNG)
+[photo 1](/ReadmeReasures/image-1.PNG)
+[photo 1](/ReadmeReasures/image-2.PNG)
+[photo 1](/ReadmeReasures/image-3.PNG)
+[photo 1](/ReadmeReasures/image-4.PNG)
+[photo 1](/ReadmeReasures/image-5.PNG)
 
 ### Made with ♥ by [Pablo M. Salas González](https://github.com/i343SPARK)
 
